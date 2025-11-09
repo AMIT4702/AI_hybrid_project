@@ -1,0 +1,12 @@
+streamlit
+pymupdf
+pandas
+numpy
+requests
+sentence-transformers
+faiss-cpu
+duckdb
+groq
+pydantic
+phidata
+plotly
