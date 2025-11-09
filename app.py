@@ -26,8 +26,9 @@ logger = logging.getLogger(__name__)
 # -------------------------------
 # API KEYS (replace with st.secrets in prod)
 # -------------------------------
-LLM_model = "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"   # replace with secure storage
+import streamlit as st
 
+api_key = st.secrets["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]
 # -------------------------------
 # Sidebar Navigation
 # -------------------------------
@@ -628,4 +629,5 @@ if choice == "Algorithm":
 
             st.success(f"Predicted Class: {prediction_label}")
 #API_KEY = "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"
+
 
